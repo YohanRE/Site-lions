@@ -1,0 +1,209 @@
+/*---------------------------la base---------------------------------*/
+body {
+  font-family: "Century Gothic", helvetica, arial, sans-serif;
+  font-size: 1em;
+  line-height: 2;
+  margin: 0;
+  background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-456802.jpg);
+  background-position: top;
+  background-size: cover;
+}
+/*---------------------------header-----------------------------------*/
+header {
+  background: #000000;
+  width: 100%;
+  height: 10em;
+}
+
+.topbar {
+  margin: 0;
+  color: #FFF;
+  padding: 1.5em;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  margin-left: -49%;
+}
+
+/*---------------------------footer----------------------------------*/
+footer {
+  background: #000000;
+  margin-top: 100%;
+  height: 6.5em;
+}
+
+.mounu a {
+  color: white;
+}
+
+.coord p {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  color: #FFF;
+  font-size: 0.65em;
+}
+
+.discl p {
+  margin: -3%;
+  margin-right: 1%;
+  text-align: right;
+  color: #FFF;
+  font-size: 0.65em;
+}
+/**-------------------------Titre---------------------------------*/
+.titre h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+/**-------------------------Menu--------------------------------*/
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: black;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #FFF;
+  color: black;
+}
+nav {
+  margin-left: 36%;
+  margin-top: -3%;
+
+}
+/*--------------------------Tableau cursus----------------------*/
+body {
+  color: #333;
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+th,
+td {
+  border: 0.125em solid #333;
+  line-height: 1.5;
+  padding: 0.75em;
+  text-align: left;
+}
+
+@media (max-width: 30em) {
+
+	thead tr {
+		position: absolute;
+		top: -9999em;
+		left: -9999em;
+	}
+	tr {
+    border: 0.125em solid #333;
+    border-bottom: 0;
+  }
+
+  tr + tr {
+    margin-top: 1.5em;
+  }
+
+  tr,
+  td {
+		display: block;
+	}
+	td {
+		border: none;
+		border-bottom: 0.125em solid #333;
+
+		padding-left: 50%;
+	}
+
+  td:before {
+    content: attr(data-label);
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: -100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 20em) {
+  td {
+    padding-left: 0.75em;
+  }
+  td:before {
+    display: block;
+    margin-bottom: 0.75em;
+    margin-left: 0;
+  }
+}
+/*------------------------Texte index----------------------*/
+
+.text1 {
+ margin-left: 10%;
+ margin-top:9%;
+ width: 35%;
+
+}
+
+/**-----------------------Mosaique d'image--------------------*/
+
+#img1 {
+      height: auto;
+      width: 16%;
+      margin-left: 55%;
+      margin-top: -17%;
+      z-index: auto;
+}
+
+#img2 {
+  height: auto;
+  width: 16%;
+  Margin-top : %;
+  Martin-left : %;
+  z-index: auto;
+}
+
+#img3 {
+  height: auto;
+  width: 16%;
+  Margin-top : %;
+  Martin-left : %;
+  z-index: auto;
+}
+
+.mosaique {
+
+}
